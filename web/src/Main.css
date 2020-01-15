@@ -1,0 +1,24 @@
+main {
+    flex: 1;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+}
+
+@media (max-width: 650px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+li.dev_item {
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
