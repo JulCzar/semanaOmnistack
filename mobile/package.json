@@ -13,6 +13,9 @@
     "expo": "~36.0.0",
     "expo-localization": "~8.0.0",
     "expo-location": "~8.0.0",
+    "logkitty": "0.7.1",
+    "node-notifier": "8.0.1",
+    "object-path": "0.11.5",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
@@ -25,7 +28,8 @@
     "react-native-webview": "11.0.0",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^2.0.15",
-    "socket.io-client": "^2.3.0"
+    "socket.io-client": "^2.3.0",
+    "yargs-parser": "13.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
